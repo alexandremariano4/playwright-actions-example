@@ -44,7 +44,7 @@ Esse workflow configura uma **pipeline CI/CD no GitHub Actions** para rodar os t
 | Etapa | O que faz? |
 | --- | --- |
 | **Get code** | Faz o checkout do repositório no runner da GitHub Action. |
-| **Install Node 22** | Configura a versão 22 do Node.js para ser usada no job. |
+| **Install Node 22.11.0** | Configura a versão 22.11.0 do Node.js para ser usada no job. |
 | **Install dependencies** | Instala as dependências do projeto via `npm install`. |
 | **Install Playwright Browsers** | Faz o download dos navegadores e dependências necessários para o Playwright (`chromium`, `firefox`, etc.). |
 | **Run E2E tests** | Executa os testes Playwright com o comando `npx playwright test`. |
