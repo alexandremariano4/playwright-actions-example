@@ -11,11 +11,11 @@ O workflow é acionado automaticamente nas seguintes situações:
 ### 🔄 Fluxo do CI (playwright.yml)
 
 1. **Checkout do código-fonte** do repositório.
-2. **Instalação do Node.js 18**.
+2. **Instalação do Node.js 22.11.0**.
 3. **Instalação das dependências do projeto** via `npm install`.
 4. **Instalação dos navegadores do Playwright** (Chromium, Firefox, Webkit).
 5. **Execução dos testes E2E** com `npx playwright test`.
-6. **Geração e publicação do relatório HTML** como artefato no GitHub Actions (válido por 30 dias).
+6. **Geração e publicação do relatório HTML** como artefato no GitHub Actions (válido por 7 dias).
 
 ### 📂 Relatórios de Testes
 
